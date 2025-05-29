@@ -23,9 +23,8 @@ body {
 
 .card {
   background-color: var(--White);
-  padding: 12px;
-  padding-bottom: 30px;
-  border-radius: 16px;
+  padding: var(--Spacing-200);
+  border-radius: 20px;
   width: 320px;
 }
 
@@ -35,12 +34,14 @@ body {
 }
 
 .texts {
-  padding: 20px 18px;
+  padding: var(--Spacing-200) var(--Spacing-200) var(--Spacing-300)
+    var(--Spacing-200);
 }
 
 h1 {
   font-weight: 700;
-  font-size: 21px;
+  font-size: 22px;
+  line-height: 120%;
   color: var(--Slate-900);
   margin-bottom: 14px;
 }
@@ -48,6 +49,8 @@ h1 {
 p {
   font-weight: 400;
   font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
   color: var(--Slate-500);
 }
 
