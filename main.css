@@ -29,7 +29,8 @@ body {
 }
 
 .c-card__QR-code {
-  width: 100%;
+  inline-size: 100%;
+  height: auto;
   border-radius: 0.625rem;
 }
 
@@ -64,4 +65,9 @@ body {
   padding: 1rem;
   inline-size: fit-content;
   margin: 0 auto;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
